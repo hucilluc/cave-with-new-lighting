@@ -1,0 +1,1 @@
+curl -v -b cookie -X PUT -F "space_template[zip]=@/Users/Kate/Desktop/Github/cave-with-new-lighting/Cave with new lighting/template.zip" -F "space_template[game_engine_version]=20194" https://account.altvr.com/api/space_templates/1659429255819297599.json

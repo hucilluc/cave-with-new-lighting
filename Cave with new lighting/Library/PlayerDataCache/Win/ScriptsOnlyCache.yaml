@@ -1,5 +1,21 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - PolyToolkitEditor.AssetBrowserWindow
+    Assembly-CSharp.dll:
+    - PolyToolkit.PtAsset
+    - PolyToolkit.PtAssetObject
+    - PolyToolkitInternal.AsyncImporter
+    - PolyToolkitInternal.Authenticator
+    - PolyToolkitInternal.PolyMainInternal
+    - PolyToolkitInternal.PtSettings
+    - PolyToolkitInternal.api_clients.poly_client.PolyClient
+    - PolyToolkitInternal.caching.PersistentBlobCache
+    - PolyToolkitInternal.client.model.util.WebRequestManager
+    - PolyToolkitInternal.entitlement.OAuth2Identity
+    - PolyToolkitInternal.model.util.BackgroundMain
+    - TiltBrushToolkit.BrushDescriptor
+    - TiltBrushToolkit.BrushManifest
     Unity.EditorCoroutines.Editor.dll:
     - AltspaceBuildWindow
     - UserPreferences
